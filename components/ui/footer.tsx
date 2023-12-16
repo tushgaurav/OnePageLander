@@ -15,7 +15,8 @@ export default function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Image src="/logo-wide.png" alt="xLogic" width={62} height={62} />
+                <Image src="/logo-nav.png" alt="xLogic" width={112} height={62} />
+                <p className='pt-2 text-gray-500'>xRobotics by xLogic labs</p>
               </div>
               <div className="text-gray-400 lowercase">
                 AI powered tailored Industrial automation & solutioning at click of a button
