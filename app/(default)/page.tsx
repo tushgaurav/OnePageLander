@@ -10,7 +10,13 @@ import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
 import ContactInfo from '@/components/contact-info'
 
-export default function Home() {
+function delay(ms: number) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+export default async function Home() {
+  await delay(2000);
+
   return (
     <>
       <Hero />
