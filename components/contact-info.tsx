@@ -42,6 +42,11 @@ export default function ContactInfo() {
                             </div>
                         </div>
 
+                        {/* Calandly Button */}
+                        <div className="flex justify-center items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
+                            <a href="https://calendly.com/xlogic/30min" target="_blank" className="btn-sm bg-amber-300 text-gray-900 hover:bg-gray-100 rounded-full">Schedule a meeting</a>
+                        </div>
+
                     </div>
 
                 </div>

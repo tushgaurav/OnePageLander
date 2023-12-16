@@ -6,15 +6,17 @@ import FeatImage03 from '@/public/images/features-03-image-03.png'
 
 export default function Zigzag() {
   return (
-    <section>
+    <section id="goal">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
-            <h1 className="h2 mb-4 lowercase">Empowering Human Potential</h1>
-            <p className="text-xl text-gray-400 lowercase">At XLogic Labs, we see robots as partners, not replacements. Our technology is crafted to enhance human capabilities, freeing up time and resources so you can focus on what truly matters – creativity, innovation, and the pursuit of excellence.</p>
+            <h1 className="h2 mb-4 lowercase">goal</h1>
+            <p className="text-xl text-gray-400 lowercase">
+              We aim to become a full-stack B2B robotics company, creating AI-generated custom and tailored robots, and offering swift, turn-key solutions for industrial automation.
+            </p>
           </div>
 
 
@@ -27,16 +29,16 @@ export default function Zigzag() {
           </div> */}
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h3 className="h3 mb-3 lowercase">Innovating for Tomorrow</h3>
+            <h3 className="h3 mb-3 lowercase">AI-Generated Smart & Tailored Robots</h3>
             <p className="text-xl text-gray-400 mb-4 lowercase">
-              Sustainability is at the heart of everything we do. We're committed to creating robotic technologies that not only improve efficiency and productivity but also promote environmental responsibility and resource conservation.
+              Not all industries require automation with robotic arms, which can be an overkill for many tasks. We strive to bring a cobot-like ecosystem to mechanically superior robots (for certain use cases), thus combining the best of both worlds
             </p>
           </div>
 
           <div className="max-w-3xl mx-auto text-center ">
-            <h3 className="h3 mb-3 lowercase">Join Us on This Exciting Journey</h3>
+            <h3 className="h3 mb-3 lowercase">Swift, Turn-Key Solutions for Industrial Automation</h3>
             <p className="text-xl text-gray-400 mb-4 lowercase">
-              Whether you're a business looking for cutting-edge robotic solutions or an individual passionate about shaping a better future, we invite you to join us. Explore our website to learn more about our projects, partnerships, and how we're making the era of abundance a reality, faster.
+              Building the robot is just one part; solutioning is often the most time-consuming and challenging aspect of any automation project or robot deployment. We want to make this process faster and more straightforward, enabling factory owners to visualize and tailor solutions according to their specific use-case, target throughput, and budget.
             </p>
           </div>
 

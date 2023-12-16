@@ -18,7 +18,7 @@ export default function Footer() {
                 <Image src="/logo.png" alt="xLogic" width={62} height={62} />
               </div>
               <div className="text-gray-400">
-                AI generated tailored robots and enabler of turn-key Industrial Automation.
+                ai generated tailored robots and enabler of turn-key industrial automation combined with instant solutioning.
               </div>
             </div>
 
