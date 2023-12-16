@@ -31,7 +31,7 @@ export default function Zigzag() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h3 className="h3 mb-3 lowercase">AI-Generated Smart & Tailored Robots</h3>
             <p className="text-xl text-gray-400 mb-4 lowercase">
-              Not all industries require automation with robotic arms, which can be an overkill for many tasks. We strive to bring a cobot-like ecosystem to mechanically superior robots (for certain use cases), thus combining the best of both worlds
+            In automation, robotic arms and cobots have become highly used solutions. However, for many tasks, this approach can be excessive. At xRobotics, we innovate by integrating the versatility of a cobot-like ecosystem with the mechanical superiority of specialized robots, tailored for specific use cases. This fusion results in a new generation of automation: robots that are not only faster but also more robust and reliable. Experience the best of both worlds with our tech.
             </p>
           </div>
 

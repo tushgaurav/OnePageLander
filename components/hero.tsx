@@ -65,7 +65,7 @@ export default function Hero() {
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
-                  AI generated tailored robots and enabler of turn-key industrial automation combined with instant solutioning.
+                  AI powered tailored Industrial automation & solutioning at click of a button
                 </p>
               </div>
 

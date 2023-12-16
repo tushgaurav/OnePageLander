@@ -15,10 +15,10 @@ export default function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Image src="/logo.png" alt="xLogic" width={62} height={62} />
+                <Image src="/logo-wide.png" alt="xLogic" width={62} height={62} />
               </div>
-              <div className="text-gray-400">
-                ai generated tailored robots and enabler of turn-key industrial automation combined with instant solutioning.
+              <div className="text-gray-400 lowercase">
+                AI powered tailored Industrial automation & solutioning at click of a button
               </div>
             </div>
 
@@ -134,7 +134,7 @@ export default function Footer() {
             </ul> */}
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; xLogic Labs 2023. All rights reserved.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; xRobotics by xLogic Labs Private Limited. All rights reserved.</div>
 
           </div>
 

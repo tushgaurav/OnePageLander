@@ -31,7 +31,7 @@ export default function ContactInfo() {
                             <Phone className="w-8 h-8 mr-4 text-amber-300" />
                             <div>
                                 <h4 className="h4 mb-2">phone</h4>
-                                <p className="text-lg text-gray-400">Dhanush Baktha - +91 9003947419</p>
+                                <p className="text-lg text-gray-400">+91 9003947419 (dhanush baktha, founder)</p>
                             </div>
                         </div>
 
