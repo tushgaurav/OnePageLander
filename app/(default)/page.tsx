@@ -15,7 +15,10 @@ function delay(ms: number) {
 }
 
 export default async function Home() {
-  await delay(2000);
+  // Choose a random delay between 1 and 5 seconds
+  await delay(
+    Math.floor(Math.random() * (5000 - 1000 + 1)) + 1000
+  );
 
   return (
     <>
