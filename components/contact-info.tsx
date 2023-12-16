@@ -8,8 +8,8 @@ export default function ContactInfo() {
 
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                        <h2 className="h2 mb-4">Contact Us</h2>
-                        <p className="text-xl text-gray-400">Feel free to reach out to us for any inquiries or assistance.</p>
+                        <h2 className="h2 mb-4">contact us</h2>
+                        <p className="text-xl text-gray-400 lowercase">Feel free to reach out to us for any inquiries or assistance.</p>
                     </div>
 
                     {/* Contact Information */}
@@ -19,7 +19,7 @@ export default function ContactInfo() {
                         <div className="flex items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
                             <Mail className="w-8 h-8 mr-4 text-amber-300" />
                             <div>
-                                <h4 className="h4 mb-2">Email</h4>
+                                <h4 className="h4 mb-2">email</h4>
                                 <p className="text-lg text-gray-400">db@xlogic.in</p>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ export default function ContactInfo() {
                         <div className="flex items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
                             <Phone className="w-8 h-8 mr-4 text-amber-300" />
                             <div>
-                                <h4 className="h4 mb-2">Phone</h4>
+                                <h4 className="h4 mb-2">phone</h4>
                                 <p className="text-lg text-gray-400">+91 90039 47419</p>
                             </div>
                         </div>
@@ -37,8 +37,8 @@ export default function ContactInfo() {
                         <div className="flex items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
                             <Map className="w-8 h-8 mr-4 text-amber-300" />
                             <div>
-                                <h4 className="h4 mb-2">Address</h4>
-                                <p className="text-lg text-gray-400">Coimbatore | Delhi</p>
+                                <h4 className="h4 mb-2">address</h4>
+                                <p className="text-lg text-gray-400">coimbatore | delhi</p>
                             </div>
                         </div>
 

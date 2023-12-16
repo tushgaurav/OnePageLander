@@ -13,8 +13,8 @@ export default function Zigzag() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
-            <h1 className="h2 mb-4">Empowering Human Potential</h1>
-            <p className="text-xl text-gray-400">At XLogic Labs, we see robots as partners, not replacements. Our technology is crafted to enhance human capabilities, freeing up time and resources so you can focus on what truly matters – creativity, innovation, and the pursuit of excellence.</p>
+            <h1 className="h2 mb-4 lowercase">Empowering Human Potential</h1>
+            <p className="text-xl text-gray-400 lowercase">At XLogic Labs, we see robots as partners, not replacements. Our technology is crafted to enhance human capabilities, freeing up time and resources so you can focus on what truly matters – creativity, innovation, and the pursuit of excellence.</p>
           </div>
 
 
@@ -27,15 +27,15 @@ export default function Zigzag() {
           </div> */}
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h3 className="h3 mb-3">Innovating for Tomorrow</h3>
-            <p className="text-xl text-gray-400 mb-4 ">
+            <h3 className="h3 mb-3 lowercase">Innovating for Tomorrow</h3>
+            <p className="text-xl text-gray-400 mb-4 lowercase">
               Sustainability is at the heart of everything we do. We're committed to creating robotic technologies that not only improve efficiency and productivity but also promote environmental responsibility and resource conservation.
             </p>
           </div>
 
           <div className="max-w-3xl mx-auto text-center ">
-            <h3 className="h3 mb-3">Join Us on This Exciting Journey</h3>
-            <p className="text-xl text-gray-400 mb-4 ">
+            <h3 className="h3 mb-3 lowercase">Join Us on This Exciting Journey</h3>
+            <p className="text-xl text-gray-400 mb-4 lowercase">
               Whether you're a business looking for cutting-edge robotic solutions or an individual passionate about shaping a better future, we invite you to join us. Explore our website to learn more about our projects, partnerships, and how we're making the era of abundance a reality, faster.
             </p>
           </div>

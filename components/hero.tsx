@@ -1,5 +1,7 @@
 import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo from "@/components/modal-video";
+import Image from "next/image";
+import x from "@/components/images/X.png"
 
 export default function Hero() {
   return (
@@ -51,23 +53,31 @@ export default function Hero() {
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">
-              To help the human race get to the era of abundance. <br />
-              Faster. with Robotics.
-            </h1>
-            <p
-              className="text-xl text-gray-400 mb-8"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              AI generated tailored robots and enabler of turn-key Industrial Automation.
-            </p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+          <div className=" pb-12 md:pb-16">
+            <div className="flex justify-between items-center flex-wrap-reverse">
+              <div className="max-w-2xl">
+                <h1 className="h1 mb-4 lowercase " data-aos="fade-up">
+                  To help the human race get to the era of abundance. <br />
+                  Faster. with Robotics.
+                </h1>
+                <p
+                  className="text-xl lowercase text-gray-400 mb-8"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  AI generated tailored robots and enabler of turn-key Industrial Automation.
+                </p>
+              </div>
+
+              <Image data-aos="fade-up"
+                data-aos-delay="200" className="p-8" src={x} alt="xLogic" width={250} height={100} />
+
+            </div>
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex ">
               <div data-aos="fade-up" data-aos-delay="400">
 
                 <a
-                  className="btn text-white bg-amber-600 hover:drop-shadow-xl hover:bg-amber-900 w-full mb-4 sm:w-auto sm:mb-0"
+                  className="btn text-black font-bold bg-amber-300 rounded-full hover:drop-shadow-xl hover:bg-amber-900 w-full mb-4 sm:w-auto sm:mb-0"
                   href="#contact"
                 >
                   Learn More
@@ -89,6 +99,6 @@ export default function Hero() {
             videoHeight={1080} /> */}
         </div>
       </div>
-    </section>
+    </section >
   );
 }
