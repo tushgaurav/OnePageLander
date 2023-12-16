@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'xLogic Labs - AI powered tailored & reconfigurable Industrial Automation',
+  title: 'xRobotics - AI powered tailored & reconfigurable Industrial Automation',
 
 }
 

@@ -31,14 +31,14 @@ export default function Zigzag() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h3 className="h3 mb-3 lowercase">AI-Generated Smart & Tailored Robots</h3>
             <p className="text-xl text-gray-400 mb-4 lowercase">
-            In automation, robotic arms and cobots have become highly used solutions. However, for many tasks, this approach can be excessive. At xRobotics, we innovate by integrating the versatility of a cobot-like ecosystem with the mechanical superiority of specialized robots, tailored for specific use cases. This fusion results in a new generation of automation: robots that are not only faster but also more robust and reliable. Experience the best of both worlds with our tech.
+              In automation, robotic arms and cobots have become highly used solutions. However, for many tasks, this approach can be excessive. At xRobotics, we innovate by integrating the versatility of a cobot-like ecosystem with the mechanical superiority of specialized robots, tailored for specific use cases. This fusion results in a new generation of automation: robots that are not only faster but also more robust and reliable. Experience the best of both worlds with our tech.
             </p>
           </div>
 
           <div className="max-w-3xl mx-auto text-center ">
             <h3 className="h3 mb-3 lowercase">Swift, Turn-Key Solutions for Industrial Automation</h3>
             <p className="text-xl text-gray-400 mb-4 lowercase">
-              Building the robot is just one part; solutioning is often the most time-consuming and challenging aspect of any automation project or robot deployment. We want to make this process faster and more straightforward, enabling factory owners to visualize and tailor solutions according to their specific use-case, target throughput, and budget.
+              Building the robot is just one part; solutioning is often the most time-consuming and challenging aspect of any automation project or robot deployment. We want to make this process faster and more straightforward, enabling factory owners to visualize and tailor solutions according to their specific use-case, dream throughput, and budget.
             </p>
           </div>
 
