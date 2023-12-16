@@ -38,7 +38,7 @@ export default function ContactInfo() {
                             <Map className="w-8 h-8 mr-4 text-amber-300" />
                             <div>
                                 <h4 className="h4 mb-2">Address</h4>
-                                <p className="text-lg text-gray-400">Delhi | Coimbatore</p>
+                                <p className="text-lg text-gray-400">Coimbatore | Delhi</p>
                             </div>
                         </div>
 
