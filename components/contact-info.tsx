@@ -9,7 +9,9 @@ export default function ContactInfo() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                         <h2 className="h2 mb-4">contact us</h2>
-                        <p className="text-xl text-gray-400 lowercase">Feel free to reach out to us for any inquiries or assistance.</p>
+                        <p className="text-xl text-gray-400 lowercase">
+                            get in touch with us if you want to understand more & get the best
+                        </p>
                     </div>
 
                     {/* Contact Information */}
@@ -29,7 +31,7 @@ export default function ContactInfo() {
                             <Phone className="w-8 h-8 mr-4 text-amber-300" />
                             <div>
                                 <h4 className="h4 mb-2">phone</h4>
-                                <p className="text-lg text-gray-400">+91 90039 47419</p>
+                                <p className="text-lg text-gray-400">Dhanush Baktha - +91 9003947419</p>
                             </div>
                         </div>
 
@@ -37,14 +39,14 @@ export default function ContactInfo() {
                         <div className="flex items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
                             <Map className="w-8 h-8 mr-4 text-amber-300" />
                             <div>
-                                <h4 className="h4 mb-2">address</h4>
+                                <h4 className="h4 mb-2">location</h4>
                                 <p className="text-lg text-gray-400">coimbatore | delhi</p>
                             </div>
                         </div>
 
                         {/* Calandly Button */}
                         <div className="flex justify-center items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-                            <a href="https://calendly.com/xlogic/30min" target="_blank" className="btn-sm bg-amber-300 text-gray-900 hover:bg-gray-100 rounded-full">Schedule a meeting</a>
+                            <a href="https://calendly.com/xlogic/30min" target="_blank" className="btn-sm bg-amber-300 text-gray-900 hover:bg-gray-100 rounded-full">schedule a call</a>
                         </div>
 
                     </div>
