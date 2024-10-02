@@ -1,4 +1,6 @@
-# xRobotics Landing Page
+# OnePageLander - Simple Minimal Landing Page
+
+![screenshot](images/image.png)
 
 ## Usage
 
